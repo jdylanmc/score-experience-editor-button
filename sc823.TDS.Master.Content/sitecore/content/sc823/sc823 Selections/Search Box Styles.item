@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {B293C5B3-DD20-42E6-BC9C-18446B7A0633}
+database: master
+path: /sitecore/content/sc823/sc823 Selections/Search Box Styles
+parent: {EA1311E2-6531-4F40-A6BB-689037139CF9}
+name: Search Box Styles
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0DC41635-DAE1-4AA9-87E5-1FDDFE7D8E95}
+templatekey: Search Box Styles
+created: 20170518T221657Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{ACDFA856-0832-4A7B-B89D-E426BA87B6DF}
+----version----
+language: en
+version: 1
+revision: 7af8f02a-1f05-4da8-9a8d-f5debd9f47a2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221657Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7af8f02a-1f05-4da8-9a8d-f5debd9f47a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

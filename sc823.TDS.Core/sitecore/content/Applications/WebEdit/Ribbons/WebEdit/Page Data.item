@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {919A8D6F-364A-4B98-9FC8-0B70D61CB87F}
+database: core
+path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Data
+parent: {570A52B6-6755-461A-8052-5B95EF766F74}
+name: Page Data
+master: {00000000-0000-0000-0000-000000000000}
+template: {EC6D62A5-5D00-4329-8958-8AC1AD100EBB}
+templatekey: Strip
+created: 20170518T220604Z
+
+----field----
+field: {12C1CEB4-F549-472A-97ED-99BFF70EB84E}
+name: ID
+key: id
+content-length: 18
+
+ScorePageDataStrip
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 183
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{2AA9FC5A-9F89-4508-A210-5282E9B58468}" par="Id=Strip" uid="{D2AE2D7A-3709-4D7B-9655-65FA43AE076A}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: d0738edf-c61f-4332-92a9-4057285f5970
+
+----field----
+field: {5453DC07-6A17-48BA-8D05-17DB90A2E795}
+name: Header
+key: header
+content-length: 4
+
+Page
+----field----
+field: {68CACD41-FC33-49B5-8555-71FB4EBBBBEE}
+name: Tooltip
+key: tooltip
+content-length: 87
+
+Customized menu options that allow you to edit page data not visible in the page editor
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T193354
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d0738edf-c61f-4332-92a9-4057285f5970
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150227T180518:635606571187409737
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {31D47F06-DD8D-4904-84F0-E62314380555}
+database: master
+path: /sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Button Toolbar
+parent: {22236A16-0AB8-4363-8F6B-D2466396DDA0}
+name: Button Toolbar
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20170518T221649Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 194
+
+{10549D99-9CD4-4DD1-A3A6-04B6C14D19AE}|{2C5143D2-75EC-415E-9DB4-C8FF624030BD}|{F0908AE7-2C15-40EA-A77A-7925A0AA60B4}|{61AB4A9D-5513-4628-92ED-AAB8F5A6A662}|{51B42B1B-BD38-4F49-B5F4-68496ED19E5D}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+800
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5F728708-0B0F-466F-84B0-ADB9226A86B3}
+----version----
+language: en
+version: 1
+revision: 76fef3ff-3936-45e8-8097-2db93653ebfb
+
+----field----
+field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
+name: Description
+key: description
+content-length: 264
+
+<p>The Button Toolbar container defines a single placeholder key value in BootstrapUI - <strong>Button Toolbar</strong>. &nbsp;By default, only a single toolbar rendering is offered. &nbsp;Any custom toolbar renderings created for a site would be defined here.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+76fef3ff-3936-45e8-8097-2db93653ebfb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

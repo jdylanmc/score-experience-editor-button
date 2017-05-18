@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {20233C8B-4BBC-4F46-8749-DA6292D60B3E}
+database: master
+path: /sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/MegaMenu Items
+parent: {22236A16-0AB8-4363-8F6B-D2466396DDA0}
+name: MegaMenu Items
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20170518T221648Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 233
+
+{4E3AE38E-9958-4F63-BF61-84AEF635A928}|{9856DD5B-AD68-4210-ADE7-E3FD2C05A6D3}|{22407ADE-C353-44FE-9C3F-204C7D32EB6D}|{1092F18E-546E-4CD3-A66A-432B60A47397}|{0DE38EBB-5C5B-43C9-8EC8-74D5C6D1C737}|{6593658E-EC5D-40C1-A9AF-26BFFC57A361}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{78528562-5040-44CC-9F0A-1CBF22C5D4EA}
+----version----
+language: en
+version: 1
+revision: 18d29c90-8786-4ce4-88ad-4e8bbcac77dd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221648Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+18d29c90-8786-4ce4-88ad-4e8bbcac77dd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221648Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

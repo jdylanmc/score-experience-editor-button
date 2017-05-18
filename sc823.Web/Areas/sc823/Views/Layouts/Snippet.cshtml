@@ -1,0 +1,33 @@
+@using Score.Data.Const
+@using Score.Data.ViewModels.Snippets
+@model Score.Data.ViewModels.Base.ContentPage
+
+<!DOCTYPE html>
+<html lang="@Sitecore.Context.Language.ToString()">
+<head>
+    <title>BrainJocks SCORE Snippet</title>
+    <meta charset="utf-8"/>
+    <link href="@Url.Content("~/Areas/sc823/css/main.css")" rel="stylesheet"/>
+
+    @* Add Sitecore.Context.PageMode.IsPageEditor to this condition if you need page_editor css on the split screen editing. *@
+    @if (Score.Data.Utils.ExperienceEditorMode.IsEditorEditing)
+    {
+        <link href="@Url.Content("~/Areas/ScoreBootstrapUI/css/bootstrapui_page_editor.css")" rel="stylesheet"/>
+        <link href="@Url.Content("~/Areas/sc823/css/page_editor.css")" rel="stylesheet"/>
+    }
+
+    <script src="@Url.Content("~/Areas/sc823/js/vendor/modernizr.2.6.2.min.js")"></script>
+</head>
+<body>
+    <div class="@ScoreStyles.PageWrapper snippet-content">
+        @Html.Sitecore().Placeholder("SnippetContainer")
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    @foreach (var area in new[] { "ScoreCCF", "ScoreBootstrapUI", "sc823" })
+    {
+        <script src="@Url.Content("~/Areas/" + area + "/js/require.config.js")" type="text/javascript"></script>
+    }
+    <script src="@Url.Content("~/Areas/ScoreCCF/js/Vendor/require.js")" data-main="/Areas/sc823/js/main.js" type="text/javascript"></script>
+</body>
+</html>

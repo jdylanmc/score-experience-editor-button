@@ -1,0 +1,9 @@
+//Global custom variables
+
+//default margin on content components
+$vertical-spacing: 30px;
+
+//Global custom mixins
+@mixin vertical-space($margin) {
+	margin-bottom: $margin;
+}

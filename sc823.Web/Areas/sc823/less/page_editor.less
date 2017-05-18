@@ -1,0 +1,275 @@
+
+.score-editField {
+    opacity: 0.5;
+    font-size: 11px;
+    font-weight: normal;
+
+    &::after {
+        content: ":";
+        margin-right: 5px;
+        opacity: 0.5;
+    }
+}
+
+// *** START: Fix for Bootstrap UI CSS and Experience Editor
+.scInsertionHandleCenter, .sc-breadcrumb .sc-breadcrumb-item-path, .sc-breadcrumb-item-path img, .scChromeCommand
+{
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+.sc-breadcrumb-item-path {
+    img {
+        vertical-align: initial;
+    }
+    span {
+        font-size: 12px; 
+    }
+}
+.navbar-brand {
+	> img {
+		display: inline-block;
+	}
+}
+.container {
+    width: auto !important;
+}
+div.btn {
+    display: inline-block;
+}
+.score-megamenu .navbar-brand,
+.score-main-menu-spider .navbar-brand {
+    float: none;
+    height: auto !important;
+    display: block;
+}
+.score-megamenu .navbar-brand > img,
+.score-main-menu-spider .navbar-brand > img {
+    display: inline !important;
+}
+.score-megamenu .score-megamenu-content,
+.score-main-menu-spider .score-megamenu-content {
+    padding: 5px;
+}
+.score-megamenu .navbar-nav,
+.score-main-menu-spider .navbar-nav {
+    float: none;
+    display: block;
+    width: auto;
+}
+.score-megamenu .navbar-nav > li,
+.score-main-menu-spider .navbar-nav > li {
+    float: none !important;
+    display: block;
+}
+.score-megamenu .navbar-nav.nav.navbar-left > li,
+.score-main-menu-spider .navbar-nav.nav.navbar-left > li {
+    float: left !important;
+}
+.score-megamenu .navbar-nav.nav.navbar-right > li,
+.score-main-menu-spider .navbar-nav.nav.navbar-right > li {
+    float: right !important;
+}
+.score-megamenu a.dropdown-toggle.toggle-caret,
+.score-main-menu-spider a.dropdown-toggle.toggle-caret {
+    display: inline;
+    padding-left: 0px;
+}
+.form-group .pseudo-textbox {
+    width: 90%;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+.form-group .pseudo-textbox span.label {
+    font-size: 16px;
+    color: #999;
+    padding-left: 0;
+}
+.form-group span.label {
+    font-size: 16px;
+    color: #999;
+    padding-left: 0;
+}
+.form-group .error-message span {
+    color: #f00;
+}
+.score-pe.panel {
+    background-color: inherit;
+    border-radius: 0;
+}
+.score-pe.panel > .panel-heading {
+    padding: 2px;
+    background-color: rgba(220, 220, 220, 0.6);
+    border-radius: 0;
+}
+.score-pe.panel > .panel-heading > .panel-title {
+    font-size: 12px;
+    color: #333333;
+    font-family: Tahoma;
+}
+.score-pe.panel > .panel-heading > .panel-title > span.glyphicon {
+    font-size: 12px;
+    margin-right: 2px;
+    color: #222222;
+}
+.score-pe.panel > .panel-heading > .panel-title > span.score-pe-component-type {
+    color: #225599;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.score-pe.panel > .panel-body {
+    padding: 0;
+    margin: 0;
+}
+.score-pe.panel > .panel-body > div,
+.score-pe.panel > .panel-body > nav,
+.score-pe.panel > .panel-body > span {
+    padding: 6px;
+}
+.score-alert {
+    display: block;
+    max-width: 99%;
+}
+.btn-group {
+    min-width: 200px;
+}
+.nav > li > span > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.score-variable > .score-variable-row > .score-variable-column {
+    min-width: 200px;
+}
+.score-editFields {
+    padding: 8px;
+}
+.score-editField {
+    font-size: 14px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.score-editField > label {
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+}
+.score-editField > img {
+    border: solid 2px #4195fc;
+    -webkit-box-shadow: 0 0 4px #4195fc;
+    -moz-box-shadow: 0 0 4px #4195fc;
+    box-shadow: 0 0 4px #4195fc;
+}
+.score-youtube-video {
+    min-height: 300px;
+    &.embed-responsive-16by9 {
+        padding-bottom: 0 !important;
+    }
+}
+.score-button-toolbar, .score-button-group, .score-alert {
+    min-width: 100px;
+}
+.score-button-toolbar > div {
+    float: none;
+}
+.score-location {
+    .score-editField {
+        white-space: pre-line;
+        word-wrap: break-word;
+    }
+}
+.google-map-pin {
+    float: left;
+    width: 300px;
+    margin: 20px;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+}
+.text-input {
+    min-width: 200px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.score-search-results, .score-grouped-search-results {
+    .score-search-results-header {
+        margin: 20px 0;
+        padding: 10px;
+
+        .displaying-results, .sort, .view-type {
+            display: inline-block;
+            float: none;
+            width: 30%;
+            margin: 0;
+        }
+        .score-editField-group {
+            label {
+                display: block;
+            }
+        }
+        .view-type .score-editField-group label {
+            display: inline-block;
+        }
+    }
+    .score-no-search-results, .score-search-service-unavailable {
+        text-align: left;
+    }
+    .search-results-list {
+        li {
+            padding: 0px;
+            img {
+                display: block;
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+        .compare-wraper {
+            position: static;
+        }
+    }
+    .score-promo-tile {
+        .score-snippet-edit-link {
+            display: block;
+        }
+        @media only screen and (min-width: 0) {
+            width: 100%;
+        }
+        @media only screen and (min-width: 570px) and (max-width: 1199px) {
+            width: 48%;
+            margin: 0 1% 20px 1%;
+        }
+        @media only screen and (min-width: 1200px) {
+            width: 31.333%;
+            margin: 0 1% 20px 1%;
+        }
+    }
+}
+.score-search-results{
+    &.score-search-results-with-compare {
+        margin-bottom: 0;
+    }
+}
+.score-tile-container {
+    width: 100%;
+}
+.score-search-box {
+    .button {
+        width: auto;
+        label {
+            margin: 0;
+        }
+        a {
+            color: white;
+        }
+    }
+	.score-suggestion-section {
+        img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+}
+// *** END

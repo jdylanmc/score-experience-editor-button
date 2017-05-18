@@ -1,0 +1,16 @@
+// default score styles
+
+.page-wrapper {
+    width: 100%;
+}
+.score-stripe {
+    width: 100%;
+    padding-top: $vertical-spacing;
+    border-radius:0;
+}
+.container {
+    &.full-width {
+        width: 100%;
+        padding: 0;
+    }
+}

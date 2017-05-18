@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {2A2AF3DF-41FA-4B34-AFF8-EFA18C2F8B21}
+database: master
+path: /sitecore/templates/sc823/Pages/sc823 Home Page/__Standard Values/Tiles/Search Result
+parent: {30B8E37D-30DE-43C5-BD77-79482A1D5B4C}
+name: Search Result
+master: {BBE73E97-BBD5-4446-817B-A53D96D4C6D6}
+template: {6C91BF8E-EF3B-47D6-BD3C-27AA24170171}
+templatekey: sc823 Snippet
+created: 20170518T221650Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{68B864D0-A1EF-4BC2-BF2B-75F8F9A4A25B}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 855
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1BE96877-D7F6-4109-82F4-1742A80DDC89}" p:before="r[@uid='{2530ABB9-3EE7-434E-A834-EDF1CEFEB154}']" s:id="{48681D8F-9AA7-4D5D-8CEB-049625590319}" s:ph="/SnippetContainer/Snippet/Main_1c05faf8-b6bc-46e3-b577-34735953ebb8" /><r uid="{2530ABB9-3EE7-434E-A834-EDF1CEFEB154}" p:before="r[@uid='{1C05FAF8-B6BC-46E3-B577-34735953EBB8}']" s:ds="{73D72C1D-CCE3-4777-955D-C392946A3711}" s:id="{77ED202E-8119-4A58-8866-A984376E40E6}" s:ph="/SnippetContainer/Snippet/Side_1c05faf8-b6bc-46e3-b577-34735953ebb8" /><r uid="{1C05FAF8-B6BC-46E3-B577-34735953EBB8}" p:before="r[@uid='{6D0E371D-2DD5-422E-92B5-8061FF15A512}']" s:id="{0D2EE537-479F-40AC-8323-59EAC01BA1E9}" s:ph="/SnippetContainer/Snippet" /><r uid="{6D0E371D-2DD5-422E-92B5-8061FF15A512}" p:before="*[1=2]" /></d></r>
+----version----
+language: en
+version: 1
+revision: c57e2aac-1a57-49f9-a9cf-92d7864d6363
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c57e2aac-1a57-49f9-a9cf-92d7864d6363
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

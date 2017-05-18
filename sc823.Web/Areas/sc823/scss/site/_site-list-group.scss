@@ -1,0 +1,10 @@
+.score-list-group {
+    @include vertical-space($vertical-spacing);
+    padding: 0;
+    .score-list-group-item {
+        @extend .list-group-item; //inherit bootstrap
+        .list-group-item-heading {
+
+        }
+    }
+}

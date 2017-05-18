@@ -1,0 +1,32 @@
+.score-document-header {
+    @extend .page-header; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+    .score-header-image {
+        img {
+
+        }
+    }
+    h1 {
+
+    }
+    h2 {
+
+    }
+}
+.score-document-header-with-subtitle {
+    @extend .page-header; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+    .score-header-image {
+        img {
+
+        }
+    }
+    h1 {
+        small {
+
+        }
+    }
+    h2 {
+
+    }
+}

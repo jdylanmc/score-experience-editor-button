@@ -1,0 +1,98 @@
+----item----
+version: 1
+id: {4184363F-6F9B-4FD2-8E0F-38A4642AA8D8}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/sc823 Snippets and Redirects
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: sc823 Snippets and Redirects
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+created: 20170518T221659Z
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 1673
+
+<ruleset>
+    <rule uid="{DA25DCF2-BFEF-4868-BFDF-2D6D847246C2}" name="Redirect Pages">
+        <conditions>
+            <and uid="AD5E59A8DCA944B1B56BF58D95EA39BA">
+                <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="3383BD11601D470FB059DB3E07F4CD4F" itemid="{0569A376-E74E-45BC-9EA0-51BADE4F23F5}" />
+                <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="35C277CD9ED04788BBA6D51E4265A579" templateid="{C87B4BEB-6EBD-4938-883D-13C0BD3B04A6}" />
+            </and>
+        </conditions>
+        <actions>
+            <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="272F08B11FD54D888ED752088DDB5AFC" insertoptionid="{70DD5211-AA4A-4256-B52B-76FA15366024}" />
+            <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="C658637296E644A29B7652267E3101AF" insertoptionid="{C87B4BEB-6EBD-4938-883D-13C0BD3B04A6}" />
+        </actions>
+    </rule>
+    <rule uid="{813AA1E5-B8D6-4EFB-A07E-0F861D751F12}" name="Snippets">
+        <conditions>
+            <and uid="62C249AE874F40C4997284BC88DDD0AA">
+                <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="13E49929B6A140A9B1A507D07D30F569" itemid="{548E4937-16C2-40EC-84B5-842E2A4BEF63}" />
+                <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="1D047E3E6F424804BFBFC5063E696530" templateid="{C6EF6188-4880-457B-BF56-F9E8FEC512FE}" />
+            </and>
+        </conditions>
+        <actions>
+            <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="7B8D42F09107461E8C4540AC7681B1E2" insertoptionid="{6C91BF8E-EF3B-47D6-BD3C-27AA24170171}" />
+        </actions>
+    </rule>
+   
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 29848c41-4fc8-46a7-94f0-99c4684d525e
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 28
+
+sc823 Snippets and Redirects
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221659Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+29848c41-4fc8-46a7-94f0-99c4684d525e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221659Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

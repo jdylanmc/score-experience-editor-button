@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {5CA8ABD6-91F0-41A9-BD44-7FB114A0E570}
+database: master
+path: /sitecore/layout/Layouts/sc823/Main
+parent: {9E86F85B-F39E-479D-BCDE-473C9E74A3A9}
+name: Main
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A45A723-64EE-4919-9D41-02FD40FD1466}
+templatekey: Layout
+created: 20170518T221648Z
+
+----field----
+field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
+name: Path
+key: path
+content-length: 38
+
+/Areas/sc823/Views/Layouts/Main.cshtml
+----field----
+field: {E9CC5A73-3C8A-4D7D-92AC-3B88C18A996A}
+name: Model
+key: model
+content-length: 46
+
+/sitecore/layout/Models/Score/Base/ContentPage
+----version----
+language: en
+version: 1
+revision: 892c0fec-508c-48a7-b944-929bd6c9ecd9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221648Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+892c0fec-508c-48a7-b944-929bd6c9ecd9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221648Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

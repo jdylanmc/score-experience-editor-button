@@ -1,0 +1,160 @@
+// default megamenu styles
+
+.score-megamenu {
+    // reset positions
+    .nav, .collapse, .dropup, .dropdown {
+        position: static;
+    }
+    // propagate menu position under container for full width navbars
+    .container {
+        position: relative;
+    }
+    // by default aligns menu to left
+    .dropdown-menu {
+        clear: both;
+        left: auto;
+    }
+    // Content with padding
+    .score-megamenu-content {
+        padding: 15px 20px;
+    }
+}
+
+// For indenting nested unordered lists
+ul {
+    &.level-1 {
+        margin-left: 0;
+    }
+
+    &.level-2, &.level-3, &.level-4, &.level-5, &.level-6 {
+        margin-left: 20px;
+    }
+}
+nav {
+    &.navbar {
+        margin-bottom: 0;
+    }
+    &.navbar-default {
+        background: transparent;
+        border: none;
+    }
+    .navbar-brand {
+        > .img-responsive {
+            display: inline;
+        }
+    }
+    .navbar-nav {
+        & > li {
+            clear: both;
+            @media only screen and (min-width : 0) {
+                clear: both;
+            }
+            @media only screen and (min-width : @grid-float-breakpoint) {
+                clear: none;
+            }
+            & > a {
+                float: left;
+            }
+            &.divider {
+                border-right: 1px solid #e7e7e7;
+            }
+            &.dropdown {
+                & > a {
+                    padding-right: 0;
+                }
+                & > a.dropdown-toggle.toggle-caret {
+                    padding-left: 2px;
+                    padding-right: 15px;
+                }
+                &.megamenu-small {
+                    .dropdown-menu {
+                        @media only screen and (min-width : 0) {
+                            width: initial;
+                        }
+
+                        @media only screen and (min-width : @grid-float-breakpoint) {
+                            width: 320px;
+                        }
+                    }
+                }
+                &.megamenu-medium {
+                    .dropdown-menu {
+                        @media only screen and (min-width : 0) {
+                            width: initial;
+                        }
+
+                        @media only screen and (min-width : @grid-float-breakpoint) {
+                            width: 640px;
+                        }
+                    }
+                }
+                &.megamenu-large {
+                    .dropdown-menu {
+                        @media only screen and (min-width : 0) {
+                            width: initial;
+                        }
+
+                        @media only screen and (min-width : @grid-float-breakpoint) {
+                            width: 960px;
+                        }
+                    }
+                }
+                &.megamenu-full {
+                    .dropdown-menu {
+                        left: 0;
+                        right: 0;
+                        width: 100%;
+                    }
+                }
+                &.megamenu-small, &.megamenu-medium, &.megamenu-large {
+                    position: relative;
+                    .dropdown-menu {
+                        @media only screen and (min-width : 0) {
+                            position: inherit;
+                        }
+
+                        @media only screen and (min-width : @grid-float-breakpoint) {
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+            .dropdown-menu {
+                padding-left: 0;
+                padding-right: 0;
+                @media only screen and (min-width : 0) {
+                    position: inherit;
+                }
+
+                @media only screen and (min-width : @grid-float-breakpoint) {
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+.navbar-collapse {
+    max-height: initial;
+    &.in {
+        overflow-y: visible;
+    }
+}
+.navbar-btn {
+    margin: 0;
+}
+
+@nav-pills-active-section-link-hover-color: darken(@nav-pills-active-link-hover-color, 70%);
+@nav-pills-active-section-link-hover-bg: lighten(@nav-pills-active-link-hover-bg, 25%);
+
+
+.score-section-menu, .score-siblings-menu, .score-previous-next-menu {
+    > li {
+        &.active-section > a {
+            &,
+            &:focus {
+                color: @nav-pills-active-section-link-hover-color;
+                background-color: @nav-pills-active-section-link-hover-bg;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.score-stripe, .score-style-box, .score-carousel-pane, .score-full-width-hero, .score-hero, .score-section-header, .score-well {
+    &.cover {
+        background-position:center center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    &.contain {
+        background-repeat:no-repeat;
+        background-size:contain;
+    }
+    &.repeat {
+        background-repeat:repeat;
+    }
+    &.repeat-x {
+        background-repeat:repeat-x;
+    }
+    &.repeat-y {
+        background-repeat:repeat-y;
+    }
+}

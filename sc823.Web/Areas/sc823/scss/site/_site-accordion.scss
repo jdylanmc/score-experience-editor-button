@@ -1,0 +1,19 @@
+.score-accordion {
+    @extend .panel-group; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+}
+.score-accordion-panel {
+    @extend .panel; //inherit bootstrap
+    @extend .panel-default; //inherit bootstrap
+    @include vertical-space(5px);
+    .panel-heading {
+        .panel-title {
+
+        }
+    }
+    .panel-collapse {
+        .panel-body {
+
+        }
+    }
+}

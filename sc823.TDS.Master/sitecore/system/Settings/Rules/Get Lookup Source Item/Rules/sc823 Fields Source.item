@@ -1,0 +1,198 @@
+----item----
+version: 1
+id: {463ABC1E-B27E-4A6B-A587-064748A7D167}
+database: master
+path: /sitecore/system/Settings/Rules/Get Lookup Source Item/Rules/sc823 Fields Source
+parent: {8CD2CAFC-EFB2-45A4-BA5A-267B2FADE3BF}
+name: sc823 Fields Source
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+created: 20170518T221700Z
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 10064
+
+<ruleset>  
+	<rule uid="{C7896B2A-B0AD-4A41-A22E-A93D4F522C15}" name="sc823 Site Selections">
+	    <conditions>
+	          <or uid="06102A91F4594E46B1AD024A34F507FD">
+	                  <or uid="D30DF925E1B5499BA3D6F96133D7AA47">
+	                            <and uid="D90F42D05BFE4A38AADBB825502D5689">
+	                                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="BF1BA728570048BBAB8F1E260C2711ED" token="#selections#" />
+	                                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="06F2D433C9D44A7898800246C33ECCE0" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" />    
+	                            </and>
+	                             <and uid="A7F9A485CBC946E59784BD13EBCE3499">
+	                                         <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="33FEB722A3F34B4CB2D550C05136A6CB" token="#selections#" />            
+	                                         <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="09B5E4249BB3412794352AA0E9632715" itemid="{197F63FA-DF18-4C03-B292-0ED5569BFF6E}" />          
+	                             </and>
+	                   </or>
+	                   <and uid="FC7D85C357E447F4AE8238342E498290">
+	                             <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="88F1B162F05B45B19E6D73C7036758BF" token="#selections#" />
+	                             <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="D904C071AC8041E3A0ADFD03D6A52D61" itemid="{361E3235-1137-4743-AA4E-9BC34C453174}" />        
+	                   </and>     
+	            </or>    
+	    </conditions>    
+	    <actions>      
+            <action id="{83AC52CA-6210-4671-90C8-4EE8BA33B6A9}" uid="5B4071D4F9F14E82A5BBCAA845EF2B81" token="#selections#" />      
+            <action id="{BBFC056D-9615-431D-94ED-AF1CF0A5AA9E}" uid="EB1F57B129024A6286A24F56A445A1D5" itemid="{EA1311E2-6531-4F40-A6BB-689037139CF9}" />      
+            <action id="{B762505F-1508-460C-97E9-A575D8854EA2}" uid="6747CFD122144E01AC2A651783828ED8" />    
+	    </actions>  
+	</rule>  
+    <rule uid="{E4B44BA7-50BE-42AC-8827-6FBA917C99AB}" name="sc823 Site Keywords">    
+        <conditions>      
+            <or uid="57C58027902B491AAE50E66AB1B8203A">        
+                <or uid="5ED6CF236A874BEBB6A1F2D91ED4781F">          
+                    <and uid="EC7BD30D8DF04D41AFF8AA8736E4A405">            
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="4665A5F777864F3F99E86D240C79F738" token="#keywords#" />            
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="5D7D91DEB0024381A0CB350CBD434074" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" />          
+                    </and>          
+                    <and uid="0E326F5593A642F8B189CFA855ADA926">            
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="1BC8DE622F284753AF517DDD3FA87E58" token="#keywords#" />            
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="7FE1BF6971B440CAA211A253E5344290" itemid="{197F63FA-DF18-4C03-B292-0ED5569BFF6E}" />          
+                    </and>        
+                </or>        
+                <and uid="A8C83CC9DCA4417588EC52217865AB9B">          
+                    <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="0D53286451934915BF0A2C33368BFE8F" token="#keywords#" />          
+                    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="27695EF104E9414EAB16B134BB84AD1B" itemid="{361E3235-1137-4743-AA4E-9BC34C453174}" />        
+                </and>      
+            </or>    
+        </conditions>    
+        <actions>      
+            <action id="{83AC52CA-6210-4671-90C8-4EE8BA33B6A9}" uid="73459D92E7304E12992BAB94FACDE61C" token="#keywords#" />      
+            <action id="{BBFC056D-9615-431D-94ED-AF1CF0A5AA9E}" uid="71D4FA2B7178407B893CA2047203A429" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" />      
+            <action id="{B762505F-1508-460C-97E9-A575D8854EA2}" uid="CD1A193C4E1B4E4D9FA56193C0345CE0" />    
+        </actions>  
+    </rule>
+    <rule uid="{5942AFFD-41E4-4FF1-AF79-6D636AAB0DCD}" name="sc823 Site Settings">    
+        <conditions>      
+            <or uid="E8F15475439A48E49952FA21C78296EC">        
+                <or uid="C2FB3FD5C2BC4F32A43C3D5AC1881429">          
+                    <and uid="76ADEFF631734687A5F886DB38D27783">            
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="2943A6C656444CD58701A81B230C7285" token="#settings#" />            
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="1E95FCDF855F49B78CDDEC498A96A154" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" />          
+                    </and>          
+                    <and uid="C45C630015F743FD89C180892FAE1D4C">            
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="37CADBD86620418BA695B74B215055FE" token="#settings#" />            
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="8EE665388CF245239059CEFA3672D29D" itemid="{197F63FA-DF18-4C03-B292-0ED5569BFF6E}" />          
+                    </and>        
+                </or>        
+                <and uid="0E81EC946F5A451FB258173D59C4D389">          
+                    <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="B0AC31C7C54E43D48614973549789828" token="#settings#" />          
+                    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="9FE70C53CCBB440580AAEF9E0EDA38DE" itemid="{361E3235-1137-4743-AA4E-9BC34C453174}" />        
+                </and>      
+            </or>    
+        </conditions>    
+        <actions>      
+            <action id="{83AC52CA-6210-4671-90C8-4EE8BA33B6A9}" uid="AD43B97272464DEDAA21D094EAA6254D" token="#settings#" />      
+            <action id="{BBFC056D-9615-431D-94ED-AF1CF0A5AA9E}" uid="D08C1D603BF94EDF8A8FDF76AC9E6C67" itemid="{F0167451-2E56-46EE-BBAD-03030D025111}" />      
+            <action id="{B762505F-1508-460C-97E9-A575D8854EA2}" uid="76D285653CC74B1DB2F206EF157CA0F3" />    
+        </actions>  
+    </rule>
+
+    <rule uid="{D3AB89B4-C589-412E-8109-53A73064643C}" name="sc823 Site Search Facets">
+        <conditions>
+            <or uid="A8FE4F3468D240ECA216F647159A513B">
+                <or uid="8C3BD636EF0F418B87895E1A89E98F3B">
+                    <and uid="B478BD3AA2D343D6AC55389F5903CF44">
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="949183C3765443748D4059EB91D37EF1" token="#facets#" />
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="69B138ACDF19412898E2DF6BB294DD7F" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" /> 
+                    </and>
+                    <and uid="5966CDA112A04949A2D95ED8A3391647">
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="043CFC30F9C9488B96176A832DA6110B" token="#facets#" />
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="E05C74F28CCC4BA8B1E98D261BEEEAAF" itemid="{197F63FA-DF18-4C03-B292-0ED5569BFF6E}" /> 
+                    </and>
+                </or>
+                <and uid="9C35105674CC4295975D4205D1A4BB24">
+                    <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="B718D3D0E4D24B8092EB954C38A8FE6F" token="#facets#" />
+                    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="4F376577E614464FA9EC2BCA8C6A34FF" itemid="{361E3235-1137-4743-AA4E-9BC34C453174}" /> 
+                </and>
+            </or>
+        </conditions>
+        <actions>
+            <action id="{83AC52CA-6210-4671-90C8-4EE8BA33B6A9}" uid="74AD4CBA715F4B3788ED9D748A2C903A" token="#facets#" />
+            <action id="{BBFC056D-9615-431D-94ED-AF1CF0A5AA9E}" uid="21D9BF9AE5DB486BA2CAB94416DE738A" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" />
+            <action id="{B762505F-1508-460C-97E9-A575D8854EA2}" uid="CF2396908018429F8AEEF0D760747023" /> 
+        </actions>
+    </rule>
+    <rule uid="{D18AF3E9-6FF4-4965-AE44-F6F7FCC52A91}" name="sc823 Site Templates">
+        <conditions>
+            <or uid="966636FAAFCE404C89F5C065D319A764">
+                <or uid="4D78FB086CAA42C9B089C56EE93FE63D">
+                    <and uid="EDA947A866994217936446F726327552">
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="64DC916891CA4D3AB6CC8461D6D64D1E" token="#page-templates#" />
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="5B7EE6B334C846E6B7A67579C4C535ED" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" /> 
+                    </and>
+                    <and uid="0146C8067EAD40209782D7874CB35863">
+                        <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="BF214EA251D44B1EB0172EEC91C37EAC" token="#page-templates#" />
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="AF80B9B361C5467699BF358A04BC3B4D" itemid="{197F63FA-DF18-4C03-B292-0ED5569BFF6E}" /> 
+                    </and>
+                </or>
+                <and uid="CA97F107A8C446A7A607A5BBD83EE8C6">
+                    <condition id="{C50D3B3B-E1E9-435A-B513-9479BB6899BB}" uid="B8B705EDBDEB4094AAC8B77E9B46B5E9" token="#page-templates#" />
+                    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="3C01467D0E28473A955F5B96D3D7391A" itemid="{361E3235-1137-4743-AA4E-9BC34C453174}" /> 
+                </and>
+            </or>
+        </conditions>
+        <actions>
+            <action id="{D8D96885-75FB-4DC8-9675-B65566906CED}" uid="1809778D9DC04FCEAB76BBBA5473DA61" itemid="{DCAD6282-D25D-465F-A497-33C3D51EE175}" token="#page-templates#" />
+        </actions>
+    </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 2b873367-2c52-4026-ab4b-27d0cf86f80c
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 19
+
+sc823 Fields Source
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221700Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2b873367-2c52-4026-ab4b-27d0cf86f80c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221700Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

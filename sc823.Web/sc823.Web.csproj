@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{524443F8-0D64-4FE5-80D7-71BE01AA8670}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sc823.Web</RootNamespace>
+    <AssemblyName>sc823.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>$(SolutionDir)packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Score.BootstrapUI.Data, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.BootstrapUI.8.2.161221.2.5.5.0\lib\Score.BootstrapUI.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.BootstrapUI.Web, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.BootstrapUI.8.2.161221.2.5.5.0\lib\Score.BootstrapUI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.Custom, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.8.2.161221.2.5.4.0\lib\Score.Custom.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.Data, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.8.2.161221.2.5.4.0\lib\Score.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.UI.CCF, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.UI.8.2.161221.2.5.6.0\lib\Score.UI.CCF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.UI.Data, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.UI.8.2.161221.2.5.6.0\lib\Score.UI.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.UI.Web, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.UI.8.2.161221.2.5.6.0\lib\Score.UI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Score.Web, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Score.8.2.161221.2.5.4.0\lib\Score.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>$(SolutionDir)packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>$(SolutionDir)packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>$(SolutionDir)packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>$(SolutionDir)packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>$(SolutionDir)packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>$(SolutionDir)packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>$(SolutionDir)packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics">
+      <Private>True</Private>
+      <HintPath>$(SolutionDir)packages\Sitecore.Analytics.8.2.170407\lib\NET452\Sitecore.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Buckets">
+      <Private>True</Private>
+      <HintPath>$(SolutionDir)packages\Sitecore.Buckets.8.2.170407\lib\NET452\Sitecore.Buckets.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>$(SolutionDir)packages\Sitecore.Kernel.8.2.170407\lib\NET452\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Logging">
+      <HintPath>$(SolutionDir)packages\Sitecore.Logging.8.2.170407\lib\NET452\Sitecore.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>$(SolutionDir)packages\Sitecore.Mvc.8.2.170407\lib\NET452\Sitecore.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics">
+      <HintPath>$(SolutionDir)packages\Sitecore.Mvc.Analytics.8.2.170407\lib\NET452\Sitecore.Mvc.Analytics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Nexus">
+      <HintPath>$(SolutionDir)packages\Sitecore.Nexus.8.2.170407\lib\NET452\Sitecore.Nexus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Areas\sc823\sc823AreaRegistration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\sc823\css\main.css" />
+    <Content Include="Areas\sc823\css\page_editor.css" />
+    <Content Include="Areas\sc823\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="Areas\sc823\img\blank.png" />
+    <Content Include="Areas\sc823\img\arrow_down.png" />
+    <Content Include="Areas\sc823\img\arrow_right.png" />
+    <Content Include="Areas\sc823\img\checkbox_checked.png" />
+    <Content Include="Areas\sc823\img\checkbox_disabled.png" />
+    <Content Include="Areas\sc823\img\checkbox.png" />
+    <Content Include="Areas\sc823\img\close.png" />
+    <Content Include="Areas\sc823\js\main.js" />
+    <Content Include="Areas\sc823\js\require.config.js" />
+    <Content Include="Areas\sc823\js\sitecore\EditPageDetails.js" />
+    <Content Include="Areas\sc823\js\Vendor\modernizr.2.6.2.min.js" />
+    <Content Include="Areas\sc823\Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\sc823\Controllers\" />
+    <Folder Include="Areas\sc823\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sc823.Custom\sc823.Custom.csproj">
+      <Project>{68901080-AB65-43BE-8990-AD294A0F4F60}</Project>
+      <Name>sc823.Custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sc823.Data\sc823.Data.csproj">
+      <Project>{CDC1212E-B87C-47BF-A186-7D43A1633D14}</Project>
+      <Name>sc823.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\sc823\_html\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\sc823\Views\Layouts\Main.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\sc823\Views\Layouts\Snippet.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_alerts.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_buttons.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_center-block.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_forms.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_gradients.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_grid.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_hide-text.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_image.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_labels.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_list-group.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_nav-vertical-align.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_opacity.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_pagination.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_panels.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_progress-bar.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_reset-filter.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_resize.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_responsive-visibility.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_size.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_tab-focus.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_table-row.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_text-overflow.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\mixins\_vendor-prefixes.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_alerts.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_badges.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_breadcrumbs.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_button-groups.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_buttons.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_carousel.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_close.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_code.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_component-animations.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_dropdowns.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_forms.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_glyphicons.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_grid.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_input-groups.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_jumbotron.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_labels.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_list-group.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_media.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_mixins.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_modals.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_navbar.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_navs.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_normalize.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_pager.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_pagination.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_panels.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_popovers.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_print.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_progress-bars.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_responsive-embed.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_responsive-utilities.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_scaffolding.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_tables.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_theme.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_thumbnails.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_tooltip.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_type.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_typeahead.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_utilities.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_variables.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\bootstrap\_wells.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\_bootstrap-compass.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\_bootstrap-mincer.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\_bootstrap-sprockets.scss" />
+    <Content Include="Areas\sc823\scss\bootstrap\_bootstrap.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-active-filters.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-content-search.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-faceted-filtering.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-grid.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-local-layout.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-nav.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-tiles.scss" />
+    <Content Include="Areas\sc823\scss\score\_score-typeahead.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-accordion.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-active-filters.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-background.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-buttons.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-carousel.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-content-search.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-content-spot.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-document-headers.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-faceted-filtering.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-footer.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-gmap.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-header.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-heroes.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-highlights.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-image.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-lead.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-list-group.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-navigation.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-panels.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-progress.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-section-header.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-tabset.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-tiles.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-typeahead.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-variables.scss" />
+    <Content Include="Areas\sc823\scss\site\_site-youtube-video.scss" />
+    <Content Include="Areas\sc823\scss\main.scss" />
+    <Content Include="Areas\sc823\scss\page_editor.scss" />
+    <Content Include="Areas\sc823\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\sc823\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="Areas\sc823\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="packages.config" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.INT-Single.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.PROD-CD.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.PROD-CM.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.PROD-Single.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-Single.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.CI.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Sandbox.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <!--<PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>-->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sandbox|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'INT-Single|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD-CD|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD-CM|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD-Single|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-Single|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CI|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58918</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!--
+  <Target Name="CompileLess" AfterTargets="Build">
+    <Exec Command="lessc Areas\sc823\less\main.less Areas\sc823\css\main.css" IgnoreExitCode="false" />
+    <Exec Command="lessc Areas\sc823\less\page_editor.less Areas\sc823\css\page_editor.css" IgnoreExitCode="false" />
+  </Target>
+  -->
+  <Target Name="CompileSass" AfterTargets="Build">
+    <Exec Command="sass Areas\sc823\scss\main.scss Areas\sc823\css\main.css  --scss --sourcemap=auto" IgnoreExitCode="false" />
+    <Exec Command="sass Areas\sc823\scss\page_editor.scss Areas\sc823\css\page_editor.css --scss --sourcemap=auto" IgnoreExitCode="false" />
+  </Target>
+  <Target Name="CleanGeneratedCss" AfterTargets="Clean">
+    <Delete Files="Areas\sc823\css\main.css" />
+    <Delete Files="Areas\sc823\css\page_editor.css" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

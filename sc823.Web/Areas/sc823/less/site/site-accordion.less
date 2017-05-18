@@ -1,0 +1,19 @@
+.score-accordion {
+    &:extend(.panel-group all); //inherit bootstrap
+    .vertical-space(@vertical-spacing);
+}
+.score-accordion-panel {
+    &:extend(.panel all); //inherit bootstrap
+    &:extend(.panel-default all); //inherit bootstrap
+    .vertical-space(5px);
+    .panel-heading {
+        .panel-title {
+
+        }
+    }
+    .panel-collapse {
+        .panel-body {
+
+        }
+    }
+}

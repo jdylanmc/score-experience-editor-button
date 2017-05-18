@@ -1,0 +1,8 @@
+.score-progress-area {
+    @extend .progress; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+}
+.score-progress-bar {
+    @extend .progress-bar; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+}

@@ -1,0 +1,4 @@
+.score-lead {
+    @extend .lead; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+}

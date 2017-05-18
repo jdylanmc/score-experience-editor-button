@@ -1,0 +1,43 @@
+.score-style-box {
+
+}
+.score-alert {
+    @extend .btn; //inherit bootstrap
+    @extend .btn-default; //inherit bootstrap
+    @extend .alert; //inherit bootstrap
+    @extend .alert-dismissable; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+}
+.score-panel {
+    @extend .panel; //inherit bootstrap
+    @extend .panel-default; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+    .panel-heading {
+        .panel-title {
+
+        }
+    }
+    .panel-body {
+
+    }
+    .panel-footer {
+
+    }
+}
+.score-well {
+    @extend .well; //inherit bootstrap
+    @include vertical-space($vertical-spacing);
+}
+.score-center-text {
+    @extend .text-center; //inherit bootstrap
+}
+.score-right-text {
+    @extend .text-right; //inherit bootstrap
+}
+.score-left-text {
+    @extend .text-left; //inherit bootstrap
+}
+.modal-dialog {
+    margin: 250px auto 30px auto;
+    z-index: $zindex-modal;
+}

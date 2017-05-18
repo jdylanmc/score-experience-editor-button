@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {38B08288-CCD8-42B4-9B73-F3BDC272B0B2}
+database: master
+path: /sitecore/content/sc823/sc823 Selections/Button Sizes/Large
+parent: {E4185ADE-5699-4983-A036-1256C40DFEAC}
+name: Large
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0B812923-4A0F-4472-BB25-A2D4B10D881E}
+templatekey: List Item
+created: 20170518T221654Z
+
+----field----
+field: {39BC23A7-4842-431A-ACED-F0A15EAB496D}
+name: Value
+key: value
+content-length: 6
+
+btn-lg
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+206
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{715A9087-5BEF-465D-8CA2-573F829C2B1C}
+----version----
+language: en
+version: 1
+revision: 64df047d-46cd-4859-8998-78cbe601d91d
+
+----field----
+field: {FF438BF6-9409-45F5-ABEA-CA2049239A0F}
+name: Text
+key: text
+content-length: 5
+
+Large
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221655Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+64df047d-46cd-4859-8998-78cbe601d91d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221655Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

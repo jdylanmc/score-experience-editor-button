@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {0569A376-E74E-45BC-9EA0-51BADE4F23F5}
+database: master
+path: /sitecore/content/sc823/home
+parent: {9A1C4660-BF74-4A1F-ADE7-985244F30EB7}
+name: home
+master: {00000000-0000-0000-0000-000000000000}
+template: {00FFEF1B-D76C-4013-897F-9D3BDEB5BDF3}
+templatekey: sc823 Home Page
+created: 20170518T221659Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 1d4f9545-02ad-49c4-bcad-deb5fe5c2f35
+
+----field----
+field: {4FC1CABF-F32B-428C-8C01-5C306C9EBBDB}
+name: Page Title
+key: page title
+content-length: 4
+
+Home
+----field----
+field: {199BAD57-CE40-46C1-A8EA-054F3C4C4117}
+name: Open Graph Page Title
+key: open graph page title
+content-length: 4
+
+Home
+----field----
+field: {5F2ED4E4-5B3E-4B26-87D9-E095A6E8E70D}
+name: Meta Description
+key: meta description
+content-length: 4
+
+Home
+----field----
+field: {4D3DCA3F-59C0-4F7A-886E-277AD66B568A}
+name: Default Title
+key: default title
+content-length: 4
+
+Home
+----field----
+field: {3DB7BD0B-626C-4F94-8321-EFC40C45C0D6}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 4
+
+Home
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221659Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1d4f9545-02ad-49c4-bcad-deb5fe5c2f35
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221659Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

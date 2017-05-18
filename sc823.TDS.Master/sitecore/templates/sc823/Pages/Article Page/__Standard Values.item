@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {C1061FB5-5F53-4D9D-8B3D-62678875CB2F}
+database: master
+path: /sitecore/templates/sc823/Pages/Article Page/__Standard Values
+parent: {3A11626B-67A0-414E-82DD-3311686D875F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A11626B-67A0-414E-82DD-3311686D875F}
+templatekey: Article Page
+created: 20170518T222950Z
+
+----version----
+language: en
+version: 1
+revision: e1857230-b1ed-4b11-b780-b92baaf3a1c5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T222950Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e1857230-b1ed-4b11-b780-b92baaf3a1c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T222950Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

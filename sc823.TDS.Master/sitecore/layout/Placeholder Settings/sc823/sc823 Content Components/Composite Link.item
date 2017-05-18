@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {69C2888E-9D64-47BB-9FBA-61E33E3A0953}
+database: master
+path: /sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Composite Link
+parent: {22236A16-0AB8-4363-8F6B-D2466396DDA0}
+name: Composite Link
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20170518T221649Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 155
+
+{77ED202E-8119-4A58-8866-A984376E40E6}|{EF926AD9-B4E1-471E-95B2-BA7C83A93F5F}|{43AD8FA6-3501-41C1-9469-2A11D2DB84AD}|{429E39C8-6B50-48E0-8356-B20D41F5E3B6}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{1A8DDD6E-D9D3-4DFA-9D96-2BE84031A056}
+----version----
+language: en
+version: 1
+revision: fac257a2-a77d-4896-bc18-25a9102e77ee
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fac257a2-a77d-4896-bc18-25a9102e77ee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

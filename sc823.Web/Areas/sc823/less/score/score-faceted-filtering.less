@@ -1,0 +1,106 @@
+.default-facet-container {
+    .clear-facets {
+        display: block;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .panel {
+        border: 1px solid lightgray;
+        border-radius: 0;
+        margin-bottom: 20px;
+        .panel-heading {
+            padding-left: 15px;
+            padding-right: 35px; //extra padding to comphensate for arrows
+            cursor: pointer;
+            &.opened {
+                background: url('../img/arrow_down.png') 96% center no-repeat;
+                background-size: 22px;
+                border-bottom: 1px solid #ddd;
+            }
+            &.closed {
+                background: url('../img/arrow_right.png') 97% center no-repeat;
+                background-size: 22px;
+            }
+            &.static {
+                background: transparent;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+        .panel-body {
+            .zero-hits {
+                opacity: 0.3;
+                label {
+                    pointer-events: none;
+                    &:hover {
+                        cursor: not-allowed;
+                    }
+                }
+            }
+        }
+    }
+    .score-checkbox {
+        position: relative;
+        label {
+            font-weight: normal;
+            margin-left: 5px;
+            cursor: pointer;
+            display: inline-block;
+            &:before {
+                display: inline-block;
+                position: relative;
+                top: 5px;
+                left: -5px;
+                content: "";
+                width: 20px;
+                height: 20px;
+                background-image: url('../img/checkbox.png');
+                background-size: 20px;
+            }
+        }
+        input {
+            &[type="checkbox"] {
+                position: absolute;
+                opacity: 0;
+                width: auto;
+                height: 18px;
+                &:checked {
+                    &+label, &+input + label, &+input:nth-child(n) + label {
+                        &:before {
+                            background-image: url('../img/checkbox_checked.png');
+                        }
+                    }
+                }
+            }
+        }
+        &.zero-hits {
+            cursor: not-allowed;
+            &:after {
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                content: "";
+                z-index: 2;
+            }
+            label {
+                &:before {
+                    background-image: url('../img/checkbox_disabled.png');
+                }
+            }
+            input {
+                &[type="checkbox"] {
+                    &:checked {
+                        &+label, &+input + label, &+input:nth-child(n) + label {
+                            &:before {
+                                background-image: url('../img/checkbox_disabled.png');
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.default-search-box {
+    .clearfix;
+    .js-typeahead {
+        display: table;
+        width: 100%;
+    }
+    .twitter-typeahead {
+        display: table-cell !important; //override injected display: inline-block; from typeahead
+        width: 100%;
+        input {
+            width: 100%;
+            line-height: 24px;
+            border: 1px solid #ddd;
+        }
+        .tt-hint, .tt-input {
+            padding-left: 10px;
+        }
+        .tt-menu {
+            width: 350px;
+            left: inherit !important; //override injected left: 0; position from typeahead
+            right: -50px;
+        }
+        .score-typeahead-header {
+            font-size: 16px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .score-typeahead-content {
+            border-bottom: 1px solid #ddd;
+        }
+        .score-typeahead-footer {
+            padding: 10px;
+        }
+    }
+    .button {
+        position: relative;
+        display: table-cell;
+        width: 15%;
+        padding: 3px 5px;
+        color: #fff;
+        background-color: #337ab7;
+        z-index: 2;
+        cursor: pointer;
+    }
+}

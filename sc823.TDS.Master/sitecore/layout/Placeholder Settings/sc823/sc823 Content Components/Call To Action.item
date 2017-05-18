@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {78353EEC-B83A-4AD6-A8A4-127EE2D93CD5}
+database: master
+path: /sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Call To Action
+parent: {22236A16-0AB8-4363-8F6B-D2466396DDA0}
+name: Call To Action
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20170518T221649Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 233
+
+{2C5143D2-75EC-415E-9DB4-C8FF624030BD}|{10549D99-9CD4-4DD1-A3A6-04B6C14D19AE}|{69402AE6-F7F9-4BCC-94BA-4D7415507E07}|{51B42B1B-BD38-4F49-B5F4-68496ED19E5D}|{F0908AE7-2C15-40EA-A77A-7925A0AA60B4}|{61AB4A9D-5513-4628-92ED-AAB8F5A6A662}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+900
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{552DC090-D0C1-42FB-BA37-1DE25627AFC9}
+----version----
+language: en
+version: 1
+revision: f4b581f3-842f-4ac6-ba83-65a75c72fab9
+
+----field----
+field: {87871FF5-1965-46D6-884F-01D6A0B9C4C1}
+name: Description
+key: description
+content-length: 240
+
+<p>The Call to Action container defines a single placeholder key value in BootstrapUI - <strong>Call To Action</strong>. &nbsp;Any new button renderings, toolbars, groups or other "clickable" renderings used as CTAs would be added here.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221649Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4b581f3-842f-4ac6-ba83-65a75c72fab9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

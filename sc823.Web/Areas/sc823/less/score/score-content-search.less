@@ -1,0 +1,123 @@
+.default-search-results, .default-grouped-search-results {
+    text-align: center; //to align show more button
+    margin-bottom: 15px;
+    .score-search-results-header {
+        .displaying-results {
+            float: left;
+            width: inherit;
+            margin: 0 20px 20px 0;
+        }
+        & > div {
+            @media only screen and (max-width: 599px) {
+                margin-top: 15px;
+            }
+        }
+    }
+    .search-results-list {
+        width: 100%;
+        display: block;
+        list-style: none;
+        padding: 0;
+        overflow: hidden; //keeps from collapsing due to floating elements. Use clearfix as an alternative
+        @media only screen and (max-width: 991px) {
+            margin-bottom: 40px;
+        }
+        @media only screen and (min-width: 992px) {
+            margin-bottom: 20px;
+        }
+        li {
+            position: relative;
+            list-style: none;
+            display: inline-block;
+            background-color: #fff;
+            border: 1px solid lightgray;
+            float: left;
+            margin-bottom: 20px;
+            padding: 15px;
+            @media only screen and (min-width: 0) {
+                width: 100%;
+            }
+            @media only screen and (min-width: 570px) {
+                width: 48%;
+                margin: 0 1% 20px 1%;
+            }
+            @media only screen and (min-width: 1200px) {
+                width: 31.333%;
+            }
+            @media print {
+                float: left;
+                width: 31.333%;
+            }
+            &.promo-tile-li {
+                background-color: transparent;
+                .score-highlight {
+                    margin: 0;
+                }
+            }
+            h2, h3, h4, h5, h6 {
+                margin: 0 0 15px 0;
+            }
+        }
+    }
+    .score-no-search-results, .score-search-service-unavailable {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .score-search-service-unavailable {
+        clear: both;
+    }
+    &.one-column {
+        .search-results-list > li {
+            width: 100%;
+        }
+    }
+    &.two-column {
+        .search-results-list > li {
+            @media only screen and (min-width: 1200px) {
+                width: 48%;
+            }
+            @media print {
+                width: 48%;
+            }
+        }
+    }
+    &.three-column {
+        .search-results-list > li {
+            @media only screen and (min-width: 1200px) {
+                width: 31.333%;
+            }
+            @media print {
+                width: 31.333%;
+            }
+        }
+    }
+    &.four-column {
+        .search-results-list > li {
+            @media only screen and (min-width: 1200px) {
+                width: 23%;
+            }
+            @media print {
+                width: 23%;
+            }
+        }
+    }
+    .score-tile-grid {
+        text-align: left; //to offset text align center on search results (for show more button)
+    }
+    .show-more {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .score-search-results-message {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+    .js-hide-on-load {
+        display: none;
+    }
+    .tile-placeholder {
+        margin: 5px 0;
+        padding: 1px;
+        border: 1px solid gray;
+    }
+}

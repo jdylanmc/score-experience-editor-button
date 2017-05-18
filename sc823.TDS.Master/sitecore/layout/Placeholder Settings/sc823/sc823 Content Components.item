@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {22236A16-0AB8-4363-8F6B-D2466396DDA0}
+database: master
+path: /sitecore/layout/Placeholder Settings/sc823/sc823 Content Components
+parent: {93BAEC51-30D3-49A0-B80F-BFE7B25101A8}
+name: sc823 Content Components
+master: {FA1FF317-4FA8-49E8-963F-0603C8F1A101}
+template: {C3B037A0-46E5-4B67-AC7A-A144B962A56F}
+templatekey: Placeholder Settings Folder
+created: 20170518T221648Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{E601487A-2338-42FC-BD73-BCA61F279B0B}
+----version----
+language: en
+version: 1
+revision: 110b5014-f3c6-4b8e-9b79-059086ba68f7
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221648Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+110b5014-f3c6-4b8e-9b79-059086ba68f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221648Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

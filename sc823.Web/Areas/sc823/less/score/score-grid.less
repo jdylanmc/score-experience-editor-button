@@ -1,0 +1,156 @@
+//set up grid size
+@grid-columns: 12;
+
+//turn any class with .score-column into a row
+div[class^="score-column"], div[class*=" score-column"] {
+    .make-row();
+    &.score-column1 {
+        & > .score-center {
+            .make-md-column(@grid-columns);
+            @media print {
+                .make-xs-column(@grid-columns); 
+            }
+        }
+    }
+    &.score-column2 {
+        &.equal {
+            & > .score-left {
+                .make-md-column(@grid-columns/2);
+                @media print {
+                    .make-xs-column(@grid-columns/2); 
+                }
+            }
+            & > .score-right {
+                .make-md-column(@grid-columns/2);
+                @media print {
+                    .make-xs-column(@grid-columns/2); 
+                }
+            }    
+        }
+        &.wide-left {
+            & > .score-left {
+                .make-md-column(@grid-columns/1.5);
+                @media print {
+                    .make-xs-column(@grid-columns/1.5); 
+                }
+            }
+            & > .score-right {
+                .make-md-column(@grid-columns/3);
+                @media print {
+                    .make-xs-column(@grid-columns/3); 
+                }
+            }    
+        }
+        &.wide-right {
+            & > .score-left {
+                .make-md-column(@grid-columns/3);
+                @media print {
+                    .make-xs-column(@grid-columns/3); 
+                }
+            }
+            & > .score-right {
+                .make-md-column(@grid-columns/1.5);
+                @media print {
+                    .make-xs-column(@grid-columns/1.5); 
+                }
+            }
+        }
+    }
+    &.score-column3 {
+        &.equal {
+            & > .score-left {
+                .make-md-column(@grid-columns/3);
+                @media print {
+                    .make-xs-column(@grid-columns/3); 
+                }
+            }
+            & > .score-center {
+                .make-md-column(@grid-columns/3);
+                @media print {
+                    .make-xs-column(@grid-columns/3); 
+                }
+            }
+            & > .score-right {
+                .make-md-column(@grid-columns/3);
+                @media print {
+                    .make-xs-column(@grid-columns/3); 
+                }
+            }    
+        }
+        &.wide-middle {
+            & > .score-left {
+                .make-md-column(@grid-columns/4);
+                @media print {
+                    .make-xs-column(@grid-columns/4); 
+                }
+            }
+            & > .score-center {
+                .make-md-column(@grid-columns/2);
+                @media print {
+                    .make-xs-column(@grid-columns/2); 
+                }
+            }
+            & > .score-right {
+                .make-md-column(@grid-columns/4);
+                @media print {
+                    .make-xs-column(@grid-columns/4); 
+                }
+            }    
+        }
+    }
+    &.score-column4 {
+        &.equal {
+            & > .score-left {
+                .make-md-column(@grid-columns/4);
+                @media print {
+                    .make-xs-column(@grid-columns/4); 
+                }
+            }
+            & > .score-center {
+                .make-md-column(@grid-columns/4);
+                @media print {
+                    .make-xs-column(@grid-columns/4); 
+                }
+            }
+            & > .score-center2 {
+                .make-md-column(@grid-columns/4);
+                @media print {
+                    .make-xs-column(@grid-columns/4); 
+                }
+            }
+            & > .score-right {
+                .make-md-column(@grid-columns/4);
+                @media print {
+                    .make-xs-column(@grid-columns/4); 
+                }
+            }    
+        }
+    }
+}
+div[class^="score-variable"], div[class*=" score-variable"] {
+    display: table;
+    > .score-variable-row {
+        display: table-row;
+        > .score-variable-column {
+            display: table-cell;
+            vertical-align: top;
+            padding: 10px;
+            .embed-responsive {
+                min-width:150px;
+            }
+            @media only screen and (min-width : 0) {
+                float: left;
+                img.responsive {
+                    min-width:150px;
+                }
+            }
+            @media only screen and (min-width : 968px) {
+                float: none;
+                img.responsive {
+                    min-width:75px;
+                }
+            }
+
+        }
+    }
+}

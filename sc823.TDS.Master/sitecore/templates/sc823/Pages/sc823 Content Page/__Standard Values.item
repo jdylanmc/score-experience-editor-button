@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {DEAEEE2B-8B8F-4656-8474-8DB64769F7F0}
+database: master
+path: /sitecore/templates/sc823/Pages/sc823 Content Page/__Standard Values
+parent: {70DD5211-AA4A-4256-B52B-76FA15366024}
+name: __Standard Values
+master: {BBE73E97-BBD5-4446-817B-A53D96D4C6D6}
+template: {70DD5211-AA4A-4256-B52B-76FA15366024}
+templatekey: sc823 Content Page
+created: 20170518T221650Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{A04E464D-D355-4A7C-9DF6-B9181EC7811E}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{C87B4BEB-6EBD-4938-883D-13C0BD3B04A6}|{70DD5211-AA4A-4256-B52B-76FA15366024}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4818
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{5CA8ABD6-91F0-41A9-BD44-7FB114A0E570}"><p uid="{E0FE1049-ADA1-4C71-BA8A-5900726B2A08}" key="Main" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{F8C604D0-EBAC-4524-AC00-5E2772A91B60}" key="Main2" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{A8C7F59A-3D69-4184-A1CA-96042AFF855C}" key="Side" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{A5EC9916-89E1-4F09-979B-291215C80492}" key="Side2" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{40F35E39-1275-41B7-B600-3E763CE7CC7F}" key="Left" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{FAD19FDD-2F76-4381-B5DF-33AD92EBC13D}" key="Right" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{FD45C5C2-7558-403E-BE04-7FF389B9AEFE}" key="Panel Body" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{5E191AB5-E96A-4DC9-AA65-B62504FB9494}" key="Center" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{3518E3B0-9F22-45EB-AD1C-5D1813468BC3}" key="Center2" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Nested Content Area" /><p uid="{23AC6CDE-EB0B-44BC-8CA3-89FA67E1A983}" key="Accordion" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Accordion" /><p uid="{FC26C7A2-A492-4C05-8FD2-56E8F7CC4BE9}" key="Tab" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Tab" /><p uid="{E54870BA-E942-403A-8001-B7DEF3388A1B}" key="List Group" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/List Group" /><p uid="{2DAF2D54-6493-4FEB-8B3E-3327241017A0}" key="Carousel" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Carousel" /><p uid="{E3C9DAFD-D997-460E-9791-83CCC652069D}" key="Button Group" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Button Group" /><p uid="{4B20378F-1D0A-475B-84C3-F6AF5CA8176C}" key="Button Toolbar" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Button Toolbar" /><p uid="{A6E836B5-3C85-4BF5-93CF-DD2BA299D0DA}" key="Call To Action" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Call To Action" /><p uid="{4B5D4006-6AAF-44CC-9397-BD2E8A69AF59}" key="Page Stripe" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Page Stripe" /><p uid="{12B671C2-C9B5-4F49-BAD8-27A24016B240}" key="Page Content" md="/sitecore/layout/Placeholder Settings/sc823/Page Content" /><p uid="{D0CB14AE-991F-4ABB-853F-9079FCB91F08}" key="Header" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Header" /><p uid="{5A2C25F3-AED7-4154-B755-26E472A35E1D}" key="Footer" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Containers/Footer" /><p uid="{FBE3B923-56F7-496A-AD31-88766958D2C9}" key="MegaMenu Items" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/MegaMenu Items" /><p uid="{30D37917-38B7-42B9-AA8B-E2477BE1862B}" key="Above Page Content" md="/sitecore/layout/Placeholder Settings/sc823/Above Page Content" /><p uid="{428FCFBD-307D-4181-8DFD-23FE649EE29E}" key="Below Page Content" md="/sitecore/layout/Placeholder Settings/sc823/Below Page Content" /><p uid="{E0AC0F72-C3DD-42AA-AED1-E7CD75CD8ECD}" key="Menu Link List" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Menu Link List" /><p uid="{D29ACB1E-C35D-41BE-8177-7DC51E7E2190}" key="Button Menu" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Button Menu" /><p uid="{91ACB2DE-F8B6-43E0-B9CE-6EE338A7B0CC}" key="MegaMenu Navbar" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/MegaMenu Navbar" /><p uid="{B9E6013F-EC94-499E-8DFB-5DE72D0CD7BC}" key="Google Map Canvas" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Google Map Canvas" /><p uid="{8F4BABB7-E3E1-4852-9205-3DCFF8F2ACCD}" key="Composite Link" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Composite Link" /><p uid="{4B8F15F3-44D3-497A-810D-9731081C61CE}" key="Facets" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Facets" /><p uid="{68BA04E4-DC44-40D2-90AF-D35919E26644}" key="Promo Tiles" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Promo Tiles" /><p uid="{56026937-E59F-48DC-91E2-6A92A746DCE3}" key="Search Box Suggestions" md="/sitecore/layout/Placeholder Settings/sc823/sc823 Content Components/Search Box Suggestions" /></d></r>
+----version----
+language: en
+version: 1
+revision: bc519aeb-c8ce-46de-9257-53c0ae52a69c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bc519aeb-c8ce-46de-9257-53c0ae52a69c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221653Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

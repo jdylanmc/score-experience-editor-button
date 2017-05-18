@@ -1,0 +1,41 @@
+.score-button {
+    @extend .btn; //inherit bootstrap
+    @extend .btn-default; //inherit bootstrap
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+}
+.score-button-toolbar {
+    @extend .btn-toolbar; //inherit bootstrap
+    margin-left: 0;
+}
+.score-button-group {
+    @extend .btn-group; //inherit bootstrap
+}
+.score-button-menu {
+    @extend .btn-group; //inherit bootstrap
+    .score-button-menu-item {
+
+    }
+    .score-menu-list-divider {
+
+    }
+}
+.score-split-button-menu {
+    @extend .btn-group; //inherit bootstrap
+    .dropdown-toggle {
+        @extend .btn; //inherit bootstrap
+        @extend .btn-default; //inherit bootstrap
+    }
+    .dropdown-menu {
+        .score-button-menu-item {
+
+        }
+        .score-menu-list-divider {
+
+        }
+    }
+}
+.score-image-button {
+    display: block;
+}

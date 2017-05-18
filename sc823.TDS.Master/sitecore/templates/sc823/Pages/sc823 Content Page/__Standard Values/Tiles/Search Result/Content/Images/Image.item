@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {2B028D28-FAC6-4E94-9B59-9BD83348ED5E}
+database: master
+path: /sitecore/templates/sc823/Pages/sc823 Content Page/__Standard Values/Tiles/Search Result/Content/Images/Image
+parent: {DEA242BC-EBEB-4605-9614-E9FE07610CA7}
+name: Image
+master: {BBE73E97-BBD5-4446-817B-A53D96D4C6D6}
+template: {18DBF3F2-81C3-4EC4-B14F-ED47F5507A1C}
+templatekey: Image Link
+created: 20170518T221650Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{0B298540-68B8-40BD-AECF-F482F5E36976}
+----version----
+language: en
+version: 1
+revision: c77d391f-f3a7-4ea5-aa6e-9ad85966a2b2
+
+----field----
+field: {81FE72B6-4891-4261-B504-6F248BC4B74C}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{2F152A93-EBC1-47D7-A178-7A128022830E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221651Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c77d391f-f3a7-4ea5-aa6e-9ad85966a2b2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {C59F161D-39B9-4AED-B21B-25A586FCFADC}
+database: master
+path: /sitecore/system/Settings/Rules/Component Datasource Location/Rules/sc823 Datasource Location
+parent: {FAF87069-C5F0-4B90-9405-A38D68DA3D9D}
+name: sc823 Datasource Location
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+created: 20170518T221700Z
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 1263
+
+<ruleset>
+    <rule uid="{6230F636-0F05-4A32-A3EC-09F5EA5A75BB}" name="sc823 Datasource Location">
+        <conditions>
+            <or uid="DD853F70B84641ADB8B4F6EA3A9E25EB">
+                <or uid="BB15A31A1053481C92E07BBDE29F1D24">
+                    <or uid="24CC294CD8A44E658E03F9E0929350A5">
+					    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{0569A376-E74E-45BC-9EA0-51BADE4F23F5}" uid="AB546887EC27407384085742013A0EA2"/>
+                        <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{548E4937-16C2-40EC-84B5-842E2A4BEF63}" uid="A4C3E8211F6D4DFC9ADE95AAE2105B50"/>
+                    </or>
+                    <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{197F63FA-DF18-4C03-B292-0ED5569BFF6E}" uid="532B8F4544D1436F94F5773B13D9735C"/>
+                </or>
+                <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" itemid="{361E3235-1137-4743-AA4E-9BC34C453174}" uid="7F9901FF42D64BD780344094547D9D33"/>
+            </or>
+        </conditions>
+        <actions>
+            <action id="{26C41584-2D8F-40F8-B95D-8904C60D6FAB}" itemid="{9A1C4660-BF74-4A1F-ADE7-985244F30EB7}" uid="F0E613EBABB845A3BD5F4B091C481228"/>
+        </actions>
+    </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: ff1c2d07-4cd3-4964-b030-21a40b0d13a1
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 25
+
+sc823 Datasource Location
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221700Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff1c2d07-4cd3-4964-b030-21a40b0d13a1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221700Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

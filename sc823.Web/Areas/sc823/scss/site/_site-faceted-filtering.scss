@@ -1,0 +1,46 @@
+.score-facet-container {
+    @extend .default-facet-container;
+    .clear-facets {
+
+    }
+    .panel {
+        .panel-heading {
+            &.opened {
+
+            }
+            &.closed {
+
+            }
+            &.static {
+
+            }
+        }
+        .panel-body {
+            .zero-hits {
+                label {
+                    &:hover {
+
+                    }
+                }
+            }
+        }
+    }
+    .score-checkbox {
+        label {
+            &:before {
+
+            }
+        }
+        input {
+            &[type="checkbox"] {
+                &:checked {
+                    &+label, &+input + label, &+input:nth-child(n) + label {
+                        &:before {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

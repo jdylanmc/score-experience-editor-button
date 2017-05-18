@@ -1,0 +1,7 @@
+.score-youtube-video {
+    @include vertical-space($vertical-spacing);
+    @extend .embed-responsive;
+}
+.embed-responsive {
+	min-height: 375px;
+}

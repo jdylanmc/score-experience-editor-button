@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {263E5796-78B7-4618-BD99-68C08B1EBA05}
+database: master
+path: /sitecore/content/sc823/sc823 Selections/Alert Styles/Warning
+parent: {C78719B1-CBE2-404C-9D09-D2E6FC506B46}
+name: Warning
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0B812923-4A0F-4472-BB25-A2D4B10D881E}
+templatekey: List Item
+created: 20170518T221654Z
+
+----field----
+field: {39BC23A7-4842-431A-ACED-F0A15EAB496D}
+name: Value
+key: value
+content-length: 13
+
+alert-warning
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{E858A855-39C5-43E3-A0B3-52D216E87E66}
+----version----
+language: en
+version: 1
+revision: 755eb6ab-22b6-468f-85b8-c319413debbe
+
+----field----
+field: {FF438BF6-9409-45F5-ABEA-CA2049239A0F}
+name: Text
+key: text
+content-length: 7
+
+Warning
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T221654Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+755eb6ab-22b6-468f-85b8-c319413debbe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T221654Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
