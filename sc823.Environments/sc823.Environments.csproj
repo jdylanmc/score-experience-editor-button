@@ -100,9 +100,6 @@
     <None Include="ALL\App_Config\Include\sc823\LinkProvider.config" />
     <None Include="ALL\App_Config\Include\sc823\MailServer.config" />
     <None Include="ALL\App_Config\Include\sc823\MediaSettings.config" />
-    <None Include="ALL\App_Config\Include\sc823\sc823.Commands.config">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="ALL\App_Config\Include\sc823\Sites.config" />
     <None Include="INT-Single\App_Config\Include\sc823\Sites.Environment.config" />
     <None Include="PROD-CD\App_Config\Include\sc823\Sites.Environment.config" />

@@ -187,7 +187,7 @@
     <Content Include="Areas\sc823\img\close.png" />
     <Content Include="Areas\sc823\js\main.js" />
     <Content Include="Areas\sc823\js\require.config.js" />
-    <Content Include="Areas\sc823\js\sitecore\EditPageDetails.js" />
+    <Content Include="sitecore\shell\client\Sitecore\ExperienceEditor\Commands\EditPageDetails.js" />
     <Content Include="Areas\sc823\js\Vendor\modernizr.2.6.2.min.js" />
     <Content Include="Areas\sc823\Views\Web.config" />
   </ItemGroup>
